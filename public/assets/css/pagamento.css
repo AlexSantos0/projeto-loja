@@ -1,0 +1,123 @@
+.padrao{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+.container{
+    margin-bottom: 50px;
+}
+.dados-comprador{
+    display: flex;
+    flex-direction: column;
+}
+.endereco{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 10px;
+    border: solid 1px #eee;
+    outline:none;
+    width: 90%;
+}
+label{
+    color: #929292;
+    text-align: justify;
+    margin-left: 5px;
+}
+.card label{
+    color: #929292;
+    text-align: justify;
+    margin-left: 5px;
+}
+#validade, #cvv{
+    max-width: 150px;
+}
+.val-cvv{
+  display: flex; 
+}
+.cvv{
+    display: block;
+    margin-left: 15px;
+}
+.cartao-pagamento button, .pix-pagamento button{
+    width: 100px;
+}
+.pagamentos{
+    display: flex;
+}
+.cartao-pagamento, .pix-pagamento, .boleto-pagamento{
+    max-width: 30px;
+    max-height: 70px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px #497eee;
+}
+.cartao-pagamento img, .pix-pagamento img, .boleto-pagamento img{
+    width: 50%;
+    height: 100%;
+    padding: 2px;
+}
+.pix-qrcode{
+    display: flex;
+    flex-direction: column;
+}
+.pix-qrcode img{
+    max-width: 230px;
+    margin: auto;
+}
+
+/* RESULMO DO PEDIDO */
+.resumo{
+    margin: auto;
+    text-align: center;
+}
+.descricao{
+    font-size: 12px;
+}
+.timer p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.itens{
+    display: flex;
+    text-align: justify;
+}
+
+.nome-desc p:nth-child(1){
+    font-weight: bold;
+    
+}
+.total-pedido{
+    max-width: 86%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.nome-desc p:nth-child(2){
+    font-size: 12px;
+    color: #929292;
+}
+.cidade-i, .uf-i{
+    margin-left: 15px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none; 
+}
+ button{
+    margin: auto;
+    width: 227px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+@media (max-width: 770px) {
+    input{
+        width: 100%;
+    }
+}

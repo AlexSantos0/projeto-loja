@@ -1,0 +1,87 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.cards{
+    justify-content: center;
+    align-items: center;
+}
+.ajuste{
+    display: flex;
+}
+.produto{
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+}
+.card-img{
+    width: 110px;
+    margin-top: 20px;
+    flex-grow: 1 ;
+    height: 100px;
+}
+.card-img img{
+    width: 100%;
+    
+}
+.card-dados{
+    text-align: center;
+    padding: 15px;
+}
+.ajuste{
+    display: flex;
+}
+.l-erro{
+    color: rgb(250, 40, 40);
+}
+.erro{
+    border: solid 1px rgb(250, 40, 40);
+}
+.l-certo{
+    color:  rgb(42, 209, 0);
+}
+.certo{
+    border: solid 1px rgb(42, 209, 0);
+}
+
+button{
+    margin: auto;
+    border: none;
+    padding: 5px;
+    width: 227px;
+    border-radius: 8px;
+    min-width: 160px;
+}
+
+@media (max-width: 992px) {
+    .card-dados h3, h4{
+        font-size: 16px;
+    }
+    .card-dados p{
+        font-size: 14px;
+    }
+    .card-img img{
+    width: 70%;
+    }
+}
+@media (max-width: 1200px) {
+    .card-img img{
+    width: 70%;
+    }
+}
+
+@media (max-width: 770px) {
+    .ajuste{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+}

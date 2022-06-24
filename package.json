@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "imask": "^6.4.2",
+    "jquery-mask-plugin": "^1.14.16"
+  }
+}
